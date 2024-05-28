@@ -9,8 +9,8 @@ class Screen2 extends StatelessWidget {
         title: Text('Screen 2'),
       ),
       body: Center(
-        child: RaisedButton(
-          color: Colors.blue,
+        child: ElevatedButton(
+          style: ElevatedButton.styleFrom(backgroundColor:Colors.blue),
           child: Text('Go Back To Screen 1'),
           onPressed: () {},
         ),
